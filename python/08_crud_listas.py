@@ -42,7 +42,7 @@ def delete():
         if (avenger[id]==id_delete):
             avengers.remove(avenger)
             print("Avenger eliminado")
-def menu()
+def menu():
     while True:
         print("Avengers")
         print("1. Crear")
