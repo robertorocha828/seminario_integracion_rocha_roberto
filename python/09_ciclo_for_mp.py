@@ -48,4 +48,8 @@ for aspirante in aspirantes:
         break
     if (aspirante == "Hernán Varas"):
         continue
+
     print("Aspirante", aspirante)
+
+    print("Aspirante", aspirante)
+
