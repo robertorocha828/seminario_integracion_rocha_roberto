@@ -20,6 +20,7 @@ nombres = ["Eduardo Pérez", "Josué Ruiz", "Carlos Baños"]
 for nombre in nombres:
     print("Nombre actual: ", nombre)
 
+
 notas = {
     "Roberto Rocha" : 9.5,
     "Joselyn Quishpe" : 8.0,
@@ -47,4 +48,8 @@ for aspirante in aspirantes:
         break
     if (aspirante == "Hernán Varas"):
         continue
+
     print("Aspirante", aspirante)
+
+    print("Aspirante", aspirante)
+

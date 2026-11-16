@@ -22,12 +22,7 @@ josue.mostrar_info()
 carlos.mostrar_info()
 roberto.mostrar_info()
 
-# El nombre es público y se lee directo; la nota se lee con el getter
-print(eduardo.nombre)
-print(eduardo.get_nota_examen())
+print(roberto.nombre)
+print(roberto.get_nota_examen())
 
-# El atributo privado no se puede leer desde afuera
-try:
-    print(eduardo.__nota_examen)
-except AttributeError:
-    print("No se puede acceder directamente a __nota_examen")
+
